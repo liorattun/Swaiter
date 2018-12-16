@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SmsAndEmail">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:hint="Message"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/massage"
+        android:inputType="textMultiLine" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Phone Number"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sms"
+        android:text="Send SMS" />
+
+    <EditText
+        android:id="@+id/emailA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Adress"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="em"
+        android:text="Send Email" />
+
+</LinearLayout>

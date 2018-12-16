@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "892761686719",
+    "firebase_url": "https://swaiter-567c1.firebaseio.com",
+    "project_id": "swaiter-567c1",
+    "storage_bucket": "swaiter-567c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892761686719:android:cda9492f9beda3c9",
+        "android_client_info": {
+          "package_name": "com.example.lioratton.swaiter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892761686719-km8t3ntga84bvdb4pklf4vebg77bru4t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJxsBwl5pKqO3vTPgrMZT20EWBI7y2ZBw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
